@@ -1,0 +1,75 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730309442.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "idVeiculo",
+    "tipoVeiculo",
+    "modelo",
+    "anoFabricacao",
+    "placa",
+    "outrosDetalhes"
+  ],
+  "properties": {
+    "idVeiculo": {
+      "$id": "#root/idVeiculo",
+      "title": "Idveiculo",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "tipoVeiculo": {
+      "$id": "#root/tipoVeiculo",
+      "title": "Tipoveiculo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "SUV"
+      ],
+      "pattern": "^.*$"
+    },
+    "modelo": {
+      "$id": "#root/modelo",
+      "title": "Modelo",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "HONDA HRV"
+      ],
+      "pattern": "^.*$"
+    },
+    "anoFabricacao": {
+      "$id": "#root/anoFabricacao",
+      "title": "Anofabricacao",
+      "type": "integer",
+      "examples": [
+        2024
+      ],
+      "default": 0
+    },
+    "placa": {
+      "$id": "#root/placa",
+      "title": "Placa",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "ABC1B34"
+      ],
+      "pattern": "^.*$"
+    },
+    "outrosDetalhes": {
+      "$id": "#root/outrosDetalhes",
+      "title": "Outrosdetalhes",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "PCD"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

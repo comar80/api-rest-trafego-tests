@@ -1,0 +1,98 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730314777.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "idMotorista",
+    "nome",
+    "cpf",
+    "endereco",
+    "telefone",
+    "cnhNumero",
+    "cnhCategoria",
+    "cnhValidade"
+  ],
+  "properties": {
+    "idMotorista": {
+      "$id": "#root/idMotorista",
+      "title": "Idmotorista",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "nome": {
+      "$id": "#root/nome",
+      "title": "Nome",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "João Silva"
+      ],
+      "pattern": "^.*$"
+    },
+    "cpf": {
+      "$id": "#root/cpf",
+      "title": "Cpf",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "12345678900"
+      ],
+      "pattern": "^.*$"
+    },
+    "endereco": {
+      "$id": "#root/endereco",
+      "title": "Endereco",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Rua A, 123"
+      ],
+      "pattern": "^.*$"
+    },
+    "telefone": {
+      "$id": "#root/telefone",
+      "title": "Telefone",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "(11) 91234-5678"
+      ],
+      "pattern": "^.*$"
+    },
+    "cnhNumero": {
+      "$id": "#root/cnhNumero",
+      "title": "Cnhnumero",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "987654321"
+      ],
+      "pattern": "^.*$"
+    },
+    "cnhCategoria": {
+      "$id": "#root/cnhCategoria",
+      "title": "Cnhcategoria",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "B"
+      ],
+      "pattern": "^.*$"
+    },
+    "cnhValidade": {
+      "$id": "#root/cnhValidade",
+      "title": "Cnhvalidade",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2025-12-31"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

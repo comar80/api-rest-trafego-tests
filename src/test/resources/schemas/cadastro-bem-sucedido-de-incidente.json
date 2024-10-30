@@ -1,0 +1,76 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730315778.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "idIncidente",
+    "tipoIncidente",
+    "localizacao",
+    "descricao",
+    "dataHora",
+    "status"
+  ],
+  "properties": {
+    "idIncidente": {
+      "$id": "#root/idIncidente",
+      "title": "Idincidente",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "tipoIncidente": {
+      "$id": "#root/tipoIncidente",
+      "title": "Tipoincidente",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Acidente de trânsito"
+      ],
+      "pattern": "^.*$"
+    },
+    "localizacao": {
+      "$id": "#root/localizacao",
+      "title": "Localizacao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Avenida Central, 123"
+      ],
+      "pattern": "^.*$"
+    },
+    "descricao": {
+      "$id": "#root/descricao",
+      "title": "Descricao",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Colisão entre veículos"
+      ],
+      "pattern": "^.*$"
+    },
+    "dataHora": {
+      "$id": "#root/dataHora",
+      "title": "Datahora",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-10-30T14:00:00"
+      ],
+      "pattern": "^.*$"
+    },
+    "status": {
+      "$id": "#root/status",
+      "title": "Status",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Pendente"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

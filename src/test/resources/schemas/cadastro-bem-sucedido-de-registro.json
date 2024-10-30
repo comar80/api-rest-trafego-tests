@@ -1,0 +1,94 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730317323.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "idRegistroTrafego",
+    "idVeiculo",
+    "idMotorista",
+    "idRota",
+    "dataHora",
+    "velocidadeVeiculo",
+    "condicoesMetereologicas",
+    "outrosDados"
+  ],
+  "properties": {
+    "idRegistroTrafego": {
+      "$id": "#root/idRegistroTrafego",
+      "title": "Idregistrotrafego",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "idVeiculo": {
+      "$id": "#root/idVeiculo",
+      "title": "Idveiculo",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "idMotorista": {
+      "$id": "#root/idMotorista",
+      "title": "Idmotorista",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "idRota": {
+      "$id": "#root/idRota",
+      "title": "Idrota",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "dataHora": {
+      "$id": "#root/dataHora",
+      "title": "Datahora",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-10-30T10:00:00"
+      ],
+      "pattern": "^.*$"
+    },
+    "velocidadeVeiculo": {
+      "$id": "#root/velocidadeVeiculo",
+      "title": "Velocidadeveiculo",
+      "type": "integer",
+      "examples": [
+        80
+      ],
+      "default": 0
+    },
+    "condicoesMetereologicas": {
+      "$id": "#root/condicoesMetereologicas",
+      "title": "Condicoesmetereologicas",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Céu limpo"
+      ],
+      "pattern": "^.*$"
+    },
+    "outrosDados": {
+      "$id": "#root/outrosDados",
+      "title": "Outrosdados",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Dados adicionais"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

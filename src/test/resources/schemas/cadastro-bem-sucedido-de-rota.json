@@ -1,0 +1,84 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730313347.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "idRota",
+    "origem",
+    "destino",
+    "distancia",
+    "tempoMedio",
+    "condicoesEspeciais",
+    "velocidadeMaximaPermitida"
+  ],
+  "properties": {
+    "idRota": {
+      "$id": "#root/idRota",
+      "title": "Idrota",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "origem": {
+      "$id": "#root/origem",
+      "title": "Origem",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Avenida Paulista, 1, São Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "destino": {
+      "$id": "#root/destino",
+      "title": "Destino",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Avenida Paulista, 3000, São Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "distancia": {
+      "$id": "#root/distancia",
+      "title": "Distancia",
+      "type": "integer",
+      "examples": [
+        3000
+      ],
+      "default": 0
+    },
+    "tempoMedio": {
+      "$id": "#root/tempoMedio",
+      "title": "Tempomedio",
+      "type": "integer",
+      "examples": [
+        10
+      ],
+      "default": 0
+    },
+    "condicoesEspeciais": {
+      "$id": "#root/condicoesEspeciais",
+      "title": "Condicoesespeciais",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "tráfego lento"
+      ],
+      "pattern": "^.*$"
+    },
+    "velocidadeMaximaPermitida": {
+      "$id": "#root/velocidadeMaximaPermitida",
+      "title": "Velocidademaximapermitida",
+      "type": "integer",
+      "examples": [
+        50
+      ],
+      "default": 0
+    }
+  }
+}
