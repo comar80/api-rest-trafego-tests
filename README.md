@@ -11,6 +11,6 @@
 
 ![print test features.png](print%20test%20features.png)
 
-O arquivo [cucumber-reports.html](target%2Fcucumber-reports.html) mostra um relatório de todos os testes.
+O arquivo [cucumber-reports.html](cucumber-reports.html) mostra um relatório de todos os testes.
 
 ![Print relatório cucumber.png](Print%20relat%C3%B3rio%20cucumber.png)
