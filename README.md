@@ -1,5 +1,10 @@
 # BDD com Gherkin
 
+Projeto de testes automatizados com a abordagem Behavior-Driven Development (BDD) usando Java.
+
+A API principal pode ser acessada [aqui](https://api-trafego-dev-dda3bhdng8gtaqhk.eastus2-01.azurewebsites.net/swagger-ui/index.html) e o projeto dela está nesse [arquivo zip](https://github.com/comar80/api-rest-trafego-tests/blob/main/api-rest-trafego.zip)
+
+
 ### Testes automatizados
 
 1. Acessar o arquivo TestRunner na pasta runner para rodar todos os testes
