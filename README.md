@@ -2,12 +2,11 @@
 
 ### Testes automatizados
 
-1. Descompactar o arquivo [api-rest-trafego.zip](api-rest-trafego.zip) e seguir o READ.ME para fazer o build da API
-2. Acessar o arquivo TestRunner na pasta runner para rodar todos os testes
+1. Acessar o arquivo TestRunner na pasta runner para rodar todos os testes
 
 ![print test runner.png](prints%2Fprint%20test%20runner.png)
 
-3. Ou acessar a pasta resources/features para rodar um cenário de testes por vez
+2. Ou acessar a pasta resources/features para rodar um cenário de testes por vez
 
 ![print test features.png](prints%2Fprint%20test%20features.png)
 
