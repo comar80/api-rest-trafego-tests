@@ -35,7 +35,7 @@ public class CadastroMotoristaService {
             .excludeFieldsWithoutExposeAnnotation()
             .create();
     public Response response;
-    String baseUrl = "http://localhost:8080";
+    String baseUrl = "https://api-trafego-dev-dda3bhdng8gtaqhk.eastus2-01.azurewebsites.net";
 
     public void setFieldsMotorista(String field, String value) {
         switch (field) {
